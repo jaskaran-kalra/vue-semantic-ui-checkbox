@@ -10,14 +10,16 @@ npm install vue-semantic-ui-checkbox --save
 #import
 #simple checkbox
 import {VueSemanticUiCheckbox} from 'vue-semantic-ui-checkbox'
+```html
 <div class="ui padded segment">
   <h4 class="ui header">Checkbox</h4>
   <vue-semantic-ui-checkbox label="Make my profile visible" name="simple"></vue-semantic-ui-checkbox>
 </div>
-
+```
 
 #group checkbox
 import {VueSemanticUiCheckbox} from 'vue-semantic-ui-checkbox'
+```html
 <div class="ui padded segment">
   <h4 class="ui header">Group</h4>
   <vue-semantic-ui-checkbox-group>
@@ -38,6 +40,6 @@ import {VueSemanticUiCheckbox} from 'vue-semantic-ui-checkbox'
     </div>
   </vue-semantic-ui-checkbox-group>
 </div>
-
+```
 for all examples please visit: https://github.com/jaskaran-kalra/vue-semantic-ui-checkbox/blob/master/src/views/Checkbox.vue
 
