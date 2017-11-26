@@ -2,7 +2,7 @@
   "name": "vue-semantic-ui-checkbox",
   "main": "dist/vue-semantic-ui-checkbox.js",
   "description": "Use Semantic ui components using pure vue js without jQuery",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Jaskaran <wp.jaskaranakalra@gmail.com>",
   "license": "MIT",
   "private": false,
