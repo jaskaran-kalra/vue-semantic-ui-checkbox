@@ -94,6 +94,10 @@ module.exports = [
   // Config 2: For Node-based development environments
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/src/combine.js'),
+    externals: {
+      vueRouter: 'vue-router',
+      webpackMerge: 'webpack-merge'
+    },
     output: {
       filename: 'dist/vue-semantic-ui-checkbox.js',
       libraryTarget: 'umd',
