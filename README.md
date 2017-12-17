@@ -96,7 +96,7 @@ npm run dev
 Change the class to change the behaviour of the checkbox
 Add class " checked " the result will be a checked checkbox 
 
-1. Checked
+ Checked
 ```html
 <vue-semantic-ui-checkbox 
   label="Make my profile visible" 
@@ -105,7 +105,7 @@ Add class " checked " the result will be a checked checkbox
 ></vue-semantic-ui-checkbox>
 ```
 
-2. Toggle
+ Toggle
 ```html
 <vue-semantic-ui-checkbox 
   label="Make my profile visible" 
@@ -114,7 +114,7 @@ Add class " checked " the result will be a checked checkbox
 ></vue-semantic-ui-checkbox>
 ```
 
-3. Toggle and Checked
+ Toggle and Checked
 ```html
 <vue-semantic-ui-checkbox 
   label="Make my profile visible" 
@@ -122,7 +122,7 @@ Add class " checked " the result will be a checked checkbox
   :class="{'toggle': true, 'checked': ifConditionIsTrue}"
 ></vue-semantic-ui-checkbox>
 ```
-4. Slider
+ Slider
 ```html
 <vue-semantic-ui-checkbox 
   label="Make my profile visible" 
@@ -131,7 +131,7 @@ Add class " checked " the result will be a checked checkbox
 ></vue-semantic-ui-checkbox>
 ```
 
-5. Slider and Checked
+ Slider and Checked
 ```html
 <vue-semantic-ui-checkbox 
   label="Make my profile visible" 
